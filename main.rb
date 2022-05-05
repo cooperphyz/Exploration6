@@ -1,6 +1,6 @@
 def draw_button(label_text, x, y, foreground_color, is_dark_mode)
     painter = new Painter(label_text, x, y, foreground_color, is_dark_mode)
-    paint(label_text, x, y, foreground_color - foreground_color_modifier(), color_code(is_dark_mode))
+    painter.draw()
 end
 
 def color_code(is_dark_mode=nil)
