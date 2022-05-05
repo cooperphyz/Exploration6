@@ -18,5 +18,7 @@ end
 def foreground_color(is_dark_mode=nil)
     if is_dark_mode == true
       10
+    else 
+      -10
     end
 end
