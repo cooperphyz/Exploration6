@@ -20,6 +20,10 @@ end
 
 class Painter
     def initialize(label_text, x, y, foreground_color, is_dark_mode)
-
+        @label_text = label_text
+        @x = x
+        @y = y
+        @foreground_color = foreground_color
+        @is_dark_mode = is_dark_mode
     end
 end
