@@ -9,12 +9,14 @@ def draw_button(label_text, x, y, foreground_color, is_dark_mode)
 end
 
 def color_code(is_dark_mode=nil)
-    if color_code == true
+    if is_dark_mode == true
       '#111111'
     else
       '#E0E0E0'
 end
 
 def foreground_color(is_dark_mode=nil)
-    10
+    if is_dark_mode == true
+      10
+    end
 end
