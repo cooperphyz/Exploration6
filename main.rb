@@ -17,6 +17,8 @@ def foreground_color_modifier(is_dark_mode=nil)
     end
 end
 
-class Painter(label_text, x, y, foreground_color, is_dark_mode)
+class Painter
+    def initialize(label_text, x, y, foreground_color, is_dark_mode)
 
+    end
 end
