@@ -26,4 +26,8 @@ class Painter
         @foreground_color = foreground_color
         @is_dark_mode = is_dark_mode
     end
+
+    def paint
+
+    end
 end
