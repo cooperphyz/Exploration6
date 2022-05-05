@@ -27,7 +27,7 @@ class Painter
         @is_dark_mode = is_dark_mode
     end
 
-    def paint
-
+    def draw
+        paint(label_text, x, y, foreground_color - foreground_color_modifier(), color_code(is_dark_mode))
     end
 end
