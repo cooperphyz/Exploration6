@@ -14,3 +14,7 @@ def color_code(is_dark_mode=nil)
     else
       '#E0E0E0'
 end
+
+def foreground_color(is_dark_mode)
+
+end
