@@ -9,5 +9,8 @@ def draw_button(label_text, x, y, foreground_color, is_dark_mode)
 end
 
 def color_code(is_dark_mode=nil)
-    return '#111111'
+    if color_code == true
+      '#111111'
+    else
+      '#E0E0E0'
 end
