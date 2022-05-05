@@ -16,3 +16,7 @@ def foreground_color_modifier(is_dark_mode=nil)
       -10
     end
 end
+
+class Painter
+
+end
