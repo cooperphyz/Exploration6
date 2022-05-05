@@ -8,6 +8,6 @@ def draw_button(label_text, x, y, foreground_color, is_dark_mode)
     end
 end
 
-def colorcode
+def color_code(is_dark_mode=nil)
 
 end
